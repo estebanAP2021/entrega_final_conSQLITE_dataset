@@ -2,8 +2,6 @@ import dataset
 miBase = dataset.connect("sqlite:///base.db")
 tabla = miBase["Productos"]
 
-
-
 #comienza el menu de opciones
 while True:
     opciones = input("\nA - Agregar\nL - Listar\nS - Salir\nR - Remover por nombre\nID - Borrar por ID\n").upper()
